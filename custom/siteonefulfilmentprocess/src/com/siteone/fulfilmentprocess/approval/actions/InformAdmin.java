@@ -50,6 +50,7 @@ public class InformAdmin extends AbstractSimpleB2BApproveOrderDecisionAction
 				LOG.debug("Found [" + b2bAdminGroupUsers.size() + "] admins for unit: " + parent.getUid());
 			}
 			// remove the user who placed the order.
+            ////JDK-21-FIX-Needed
 			b2bAdminGroupUsers.removeIf(Predicate.not(PredicateUtils.notPredicate(PredicateUtils.equalPredicate(customer))));
 
 			if (CollectionUtils.isNotEmpty(b2bAdminGroupUsers))
