@@ -16,7 +16,7 @@ import java.util.Collection;
 import org.springframework.security.access.AccessDecisionVoter;
 import org.springframework.security.access.ConfigAttribute;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.oauth2.provider.OAuth2Authentication;
+//import org.springframework.security.oauth2.provider.OAuth2Authentication;
 
 
 /**
@@ -73,28 +73,29 @@ public class OAuthClientVoter implements AccessDecisionVoter<Object>
 	public int vote(final Authentication authentication, final Object object, final Collection<ConfigAttribute> attributes)
 	{
 		int result = ACCESS_ABSTAIN;
+        ///JDK-21-FIX-Needed
 
-		if (!(authentication instanceof OAuth2Authentication))
-		{
-			return ACCESS_ABSTAIN;
-		}
-
-		final OAuth2Authentication oAuth2Authentication = (OAuth2Authentication) authentication;
-		final String clientId = oAuth2Authentication.getOAuth2Request().getClientId();
-		final String clientIdPattern = getClientPrefix() + clientId.toUpperCase();
-
-		for (final ConfigAttribute attribute : attributes)
-		{
-			if (this.supports(attribute))
-			{
-				result = ACCESS_DENIED;
-
-				if (attribute.getAttribute().equalsIgnoreCase(clientIdPattern))
-				{
-					return ACCESS_GRANTED;
-				}
-			}
-		}
+//		if (!(authentication instanceof OAuth2Authentication))
+//		{
+//			return ACCESS_ABSTAIN;
+//		}
+//
+//		final OAuth2Authentication oAuth2Authentication = (OAuth2Authentication) authentication;
+//		final String clientId = oAuth2Authentication.getOAuth2Request().getClientId();
+//		final String clientIdPattern = getClientPrefix() + clientId.toUpperCase();
+//
+//		for (final ConfigAttribute attribute : attributes)
+//		{
+//			if (this.supports(attribute))
+//			{
+//				result = ACCESS_DENIED;
+//
+//				if (attribute.getAttribute().equalsIgnoreCase(clientIdPattern))
+//				{
+//					return ACCESS_GRANTED;
+//				}
+//			}
+//		}
 
 		return result;
 	}

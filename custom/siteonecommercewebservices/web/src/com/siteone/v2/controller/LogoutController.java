@@ -23,9 +23,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.oauth2.provider.token.TokenStore;
-import org.springframework.security.oauth2.common.OAuth2AccessToken;
-import org.springframework.security.oauth2.common.OAuth2RefreshToken;
+//import org.springframework.security.oauth2.provider.token.TokenStore;
+//import org.springframework.security.oauth2.common.OAuth2AccessToken;
+//import org.springframework.security.oauth2.common.OAuth2RefreshToken;
 import org.springframework.security.access.annotation.Secured;
 
 import de.hybris.platform.webservicescommons.swagger.ApiBaseSiteIdParam;
@@ -39,9 +39,9 @@ import org.apache.log4j.Logger;
 @Tag(name = "Siteone Logout")
 public class LogoutController extends BaseCommerceController
 {
-
-	@Autowired
-	private TokenStore tokenStore;
+    //JDK-21-FIX-Needed
+//	@Autowired
+//	private TokenStore tokenStore;
 	private static final Logger LOG = Logger.getLogger(LogoutController.class);
 
 	@Secured({ "ROLE_CUSTOMERGROUP", "ROLE_TRUSTED_CLIENT", "ROLE_CUSTOMERMANAGERGROUP" })
@@ -55,12 +55,13 @@ public class LogoutController extends BaseCommerceController
 		final LogoutResponse logoutResponse = new LogoutResponse();
         if (authHeader != null) {
         	try {
-            String tokenValue = authHeader.replace("Bearer", "").trim();
-            OAuth2AccessToken accessToken = tokenStore.readAccessToken(tokenValue);
-            tokenStore.removeAccessToken(accessToken);
-            OAuth2RefreshToken refreshToken = accessToken.getRefreshToken();
-            tokenStore.removeRefreshToken(refreshToken);
-            logoutResponse.setSuccess(true);
+                //JDK-21-FIX-Needed
+//            String tokenValue = authHeader.replace("Bearer", "").trim();
+//            OAuth2AccessToken accessToken = tokenStore.readAccessToken(tokenValue);
+//            tokenStore.removeAccessToken(accessToken);
+//            OAuth2RefreshToken refreshToken = accessToken.getRefreshToken();
+//            tokenStore.removeRefreshToken(refreshToken);
+//            logoutResponse.setSuccess(true);
         	} catch (Exception e) {
         		LOG.error(e);
         		logoutResponse.setSuccess(false);
