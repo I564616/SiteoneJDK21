@@ -5,7 +5,7 @@ ext {
 libraries << "jakarta.ws.rs:jakarta.ws.rs-api:4.0.0"
 libraries << "jakarta.xml.soap:jakarta.xml.soap-api:2.0.1"
 libraries << "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2"
-libraries << "com.sun.xml.messaging.saaj:saaj-impl:1.5.0"
+libraries << "com.sun.xml.messaging.saaj:saaj-impl:3.0.4"
 libraries << "jakarta.xml.ws:jakarta.xml.ws-api:3.0.1"
 libraries << "com.lowagie:itext:2.1.7"
 libraries << "org.jvnet.staxex:stax-ex:1.8.2"
