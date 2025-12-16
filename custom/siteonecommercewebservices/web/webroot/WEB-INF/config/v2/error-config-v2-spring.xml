@@ -20,8 +20,19 @@
 		<property name="messageConverters" ref="messageConvertersV2" />
 	</bean>
 
+    <bean id="restHandlerExceptionResolver"
+          class="de.hybris.platform.webservicescommons.resolver.RestExceptionResolver"
+          parent="wsBaseRestExceptionResolver">
 
-	<bean id="restHandlerExceptionResolverV2" class="de.hybris.platform.webservicescommons.resolver.RestHandlerExceptionResolver"
+        <property name="webserviceErrorFactory" ref="webserviceErrorFactory"/>
+        <property name="messageConverters" ref="jaxbMessageConverters"/>
+        <property name="extensionName" value="ywebservices"/>
+
+    </bean>
+
+
+
+    <bean id="restHandlerExceptionResolverV2" class="de.hybris.platform.webservicescommons.resolver.RestHandlerExceptionResolver"
 		parent="abstractRestHandlerExceptionResolverV2">
 		<property name="propertySpecificKey" value="siteonecommercewebservices"/>
 		<property name="configurationService" ref="configurationService"/>

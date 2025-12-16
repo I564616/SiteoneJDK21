@@ -20,7 +20,7 @@
 	<!-- Swagger resources -->
 	<!-- <security:http pattern="/v2/#{configurationService.configuration.getProperty('springfox.documentation.swagger.v2.path')}" security="none"/>
 	<security:http pattern="/v2/*swagger*/**" security="none"/> -->
-	
+    <import resource="classpath:webservicescommons/commons-security-spring.xml"/>
 	<security:http pattern="/v2/swagger-ui*/**" security="none"/>
     <security:http pattern="/v2/api-docs*/**" security="none"/> 
 
