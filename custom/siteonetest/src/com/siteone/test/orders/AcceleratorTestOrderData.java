@@ -66,13 +66,13 @@ import java.util.TreeMap;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Required;
-
+//import org.springframework.beans.factory.annotation.Required;
+import org.springframework.beans.factory.InitializingBean;
 
 /**
  * Create test order data
  */
-public class AcceleratorTestOrderData
+public class AcceleratorTestOrderData implements InitializingBean
 {
 	private static final Logger LOG = Logger.getLogger(AcceleratorTestOrderData.class);
 
@@ -99,7 +99,7 @@ public class AcceleratorTestOrderData
 		return cmsAdminSiteService;
 	}
 
-	@Required
+	//@Required
 	public void setCmsAdminSiteService(final CMSAdminSiteService cmsAdminSiteService)
 	{
 		this.cmsAdminSiteService = cmsAdminSiteService;
@@ -110,7 +110,7 @@ public class AcceleratorTestOrderData
 		return userService;
 	}
 
-	@Required
+	//@Required
 	public void setUserService(final UserService userService)
 	{
 		this.userService = userService;
@@ -121,7 +121,7 @@ public class AcceleratorTestOrderData
 		return impersonationService;
 	}
 
-	@Required
+	//@Required
 	public void setImpersonationService(final ImpersonationService siteImpersonationService)
 	{
 		this.impersonationService = siteImpersonationService;
@@ -132,7 +132,7 @@ public class AcceleratorTestOrderData
 		return customerAccountService;
 	}
 
-	@Required
+	//@Required
 	public void setCustomerAccountService(final CustomerAccountService customerAccountService)
 	{
 		this.customerAccountService = customerAccountService;
@@ -143,7 +143,7 @@ public class AcceleratorTestOrderData
 		return cartFacade;
 	}
 
-	@Required
+	//@Required
 	public void setCartFacade(final CartFacade cartFacade)
 	{
 		this.cartFacade = cartFacade;
@@ -154,7 +154,7 @@ public class AcceleratorTestOrderData
 		return cartService;
 	}
 
-	@Required
+	//@Required
 	public void setCartService(final CartService cartService)
 	{
 		this.cartService = cartService;
@@ -165,7 +165,7 @@ public class AcceleratorTestOrderData
 		return checkoutFacade;
 	}
 
-	@Required
+	//@Required
 	public void setCheckoutFacade(final CheckoutFacade checkoutFacade)
 	{
 		this.checkoutFacade = checkoutFacade;
@@ -176,7 +176,7 @@ public class AcceleratorTestOrderData
 		return commerceCheckoutService;
 	}
 
-	@Required
+	//@Required
 	public void setCommerceCheckoutService(final CommerceCheckoutService commerceCheckoutService)
 	{
 		this.commerceCheckoutService = commerceCheckoutService;
@@ -187,7 +187,7 @@ public class AcceleratorTestOrderData
 		return addressReversePopulator;
 	}
 
-	@Required
+	//@Required
 	public void setAddressReversePopulator(final AddressReversePopulator addressReversePopulator)
 	{
 		this.addressReversePopulator = addressReversePopulator;
@@ -198,7 +198,7 @@ public class AcceleratorTestOrderData
 		return baseStoreSelectorStrategy;
 	}
 
-	@Required
+	//@Required
 	public void setBaseStoreSelectorStrategy(final BaseStoreSelectorStrategy baseStoreSelectorStrategy)
 	{
 		this.baseStoreSelectorStrategy = baseStoreSelectorStrategy;
@@ -209,7 +209,7 @@ public class AcceleratorTestOrderData
 		return modelService;
 	}
 
-	@Required
+	//@Required
 	public void setModelService(final ModelService modelService)
 	{
 		this.modelService = modelService;
@@ -220,13 +220,13 @@ public class AcceleratorTestOrderData
 		return ticketBusinessService;
 	}
 
-	@Required
+	//@Required
 	public void setTicketBusinessService(final TicketBusinessService ticketBusinessService)
 	{
 		this.ticketBusinessService = ticketBusinessService;
 	}
 
-	@Required
+	//@Required
 	public void setBaseSiteService(final BaseSiteService baseSiteService)
 	{
 		this.baseSiteService = baseSiteService;
@@ -855,9 +855,56 @@ public class AcceleratorTestOrderData
 		return i18nService;
 	}
 
-	@Required
+	//@Required
 	public void setI18nService(final CommonI18NService i18nService)
 	{
 		this.i18nService = i18nService;
 	}
+
+    @Override
+    public final void afterPropertiesSet() throws Exception
+    {
+        if (this.cmsAdminSiteService == null) {
+            throw new IllegalArgumentException("Property 'cmsAdminSiteService' must be set");
+        }
+        if (this.userService == null) {
+            throw new IllegalArgumentException("Property 'userService' must be set");
+        }
+        if (this.impersonationService == null) {
+            throw new IllegalArgumentException("Property 'impersonationService' must be set");
+        }
+        if (this.customerAccountService == null) {
+            throw new IllegalArgumentException("Property 'customerAccountService' must be set");
+        }
+        if (this.cartFacade == null) {
+            throw new IllegalArgumentException("Property 'cartFacade' must be set");
+        }
+        if (this.cartService == null) {
+            throw new IllegalArgumentException("Property 'cartService' must be set");
+        }
+        if (this.checkoutFacade == null) {
+            throw new IllegalArgumentException("Property 'checkoutFacade' must be set");
+        }
+        if (this.commerceCheckoutService == null) {
+            throw new IllegalArgumentException("Property 'commerceCheckoutService' must be set");
+        }
+        if (this.addressReversePopulator == null) {
+            throw new IllegalArgumentException("Property 'addressReversePopulator' must be set");
+        }
+        if (this.baseStoreSelectorStrategy == null) {
+            throw new IllegalArgumentException("Property 'baseStoreSelectorStrategy' must be set");
+        }
+        if (this.modelService == null) {
+            throw new IllegalArgumentException("Property 'modelService' must be set");
+        }
+        if (this.ticketBusinessService == null) {
+            throw new IllegalArgumentException("Property 'ticketBusinessService' must be set");
+        }
+        if (this.baseSiteService == null) {
+            throw new IllegalArgumentException("Property 'baseSiteService' must be set");
+        }
+        if (this.i18nService == null) {
+            throw new IllegalArgumentException("Property 'i18nService' must be set");
+        }
+    }
 }

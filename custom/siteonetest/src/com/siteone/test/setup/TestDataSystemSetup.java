@@ -24,8 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Required;
-
+//import org.springframework.beans.factory.annotation.Required;
+import org.springframework.beans.factory.InitializingBean;
 
 /**
  * This class provides hooks into the system's initialization and update processes.
@@ -33,7 +33,7 @@ import org.springframework.beans.factory.annotation.Required;
  * @see "https://wiki.hybris.com/display/release4/Hooks+for+Initialization+and+Update+Process"
  */
 @SystemSetup(extension = SiteoneTestConstants.EXTENSIONNAME)
-public class TestDataSystemSetup extends AbstractSystemSetup
+public class TestDataSystemSetup extends AbstractSystemSetup implements InitializingBean
 {
 	private static final Logger LOG = Logger.getLogger(TestDataSystemSetup.class);
 
@@ -49,7 +49,7 @@ public class TestDataSystemSetup extends AbstractSystemSetup
 		return csvDataImport;
 	}
 
-	@Required
+	//@Required
 	public void setCsvDataImport(final boolean csvDataImport)
 	{
 		this.csvDataImport = csvDataImport;
@@ -60,7 +60,7 @@ public class TestDataSystemSetup extends AbstractSystemSetup
 		return acceleratorTestOrderData;
 	}
 
-	@Required
+	//@Required
 	public void setAcceleratorTestOrderData(final AcceleratorTestOrderData acceleratorTestOrderData)
 	{
 		this.acceleratorTestOrderData = acceleratorTestOrderData;
@@ -132,4 +132,12 @@ public class TestDataSystemSetup extends AbstractSystemSetup
 			}
 		}
 	}
+
+    @Override
+    public final void afterPropertiesSet() throws Exception
+    {
+        if (this.acceleratorTestOrderData == null) {
+            throw new IllegalArgumentException("Property 'acceleratorTestOrderData' must be set");
+        }
+    }
 }
