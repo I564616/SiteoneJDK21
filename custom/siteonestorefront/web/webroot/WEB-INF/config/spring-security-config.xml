@@ -386,6 +386,6 @@
 		</constructor-arg>
 	</bean>
     <bean id="fixation"
-          class="org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy"/>
+          class="de.hybris.platform.servicelayer.security.spring.HybrisSessionFixationProtectionStrategy"/>
 
 </beans>
