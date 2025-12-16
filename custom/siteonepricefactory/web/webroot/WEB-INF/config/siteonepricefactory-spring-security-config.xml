@@ -23,7 +23,7 @@
     <http pattern="/static/**" security="none" request-matcher="ant"/>
 
     <http use-authorization-manager="true" use-expressions="false" request-matcher="ant">
-        <session-management session-authentication-strategy-ref="fixation"/>
+<!--        <session-management session-authentication-strategy-ref="fixation"/>-->
         <intercept-url pattern="/login.jsp" access="permitAll()"/>
         <intercept-url pattern="/**" access="hasAuthority('HYBRIS_NOT_INITIALIZED')
                        or hasRole('ROLE_CUSTOMERGROUP')"/>
@@ -44,9 +44,9 @@
         </headers>
     </http>
 
-    <beans:bean id="fixation" class="de.hybris.platform.servicelayer.security.spring.HybrisSessionFixationProtectionStrategy">
-        <beans:property name="migrateSessionAttributes" value="false"/>
-    </beans:bean>
+<!--    <beans:bean id="fixation" class="de.hybris.platform.servicelayer.security.spring.HybrisSessionFixationProtectionStrategy">-->
+<!--        <beans:property name="migrateSessionAttributes" value="false"/>-->
+<!--    </beans:bean>-->
 
 <!--    <beans:bean id="accessDecisionManager" class="org.springframework.security.access.vote.AffirmativeBased">-->
 <!--        <beans:constructor-arg>-->
