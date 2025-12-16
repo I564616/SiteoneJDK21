@@ -72,9 +72,15 @@ public class SiteonePasswordEncoder implements PasswordEncoder
 				b2bUnitModel = customer.getDefaultB2BUnit();
 				if (null == b2bUnitModel)
 				{
-					final B2BUnitModel shipTo = (B2BUnitModel) CollectionUtils.find(customer.getGroups(),
-							PredicateUtils.instanceofPredicate(B2BUnitModel.class));
-					if (null != shipTo)
+//					final B2BUnitModel shipTo = (B2BUnitModel) CollectionUtils.find(customer.getGroups(),
+//							PredicateUtils.instanceofPredicate(B2BUnitModel.class));
+                    final B2BUnitModel shipTo = customer.getGroups().stream()
+                            .filter(B2BUnitModel.class::isInstance)
+                            .map(B2BUnitModel.class::cast)
+                            .findFirst()
+                            .orElse(null);
+
+                    if (null != shipTo)
 					{
 						b2bUnitModel = shipTo.getReportingOrganization() != null ? (B2BUnitModel) shipTo.getReportingOrganization()
 								: shipTo;

@@ -123,9 +123,15 @@ public class DefaultSiteOneB2BUnitService extends DefaultB2BUnitService implemen
 
 		if (null != customer)
 		{
-			final B2BUnitModel shipTo = (B2BUnitModel) CollectionUtils.find(customer.getGroups(),
-					PredicateUtils.instanceofPredicate(B2BUnitModel.class));
-			if (null != shipTo)
+//			final B2BUnitModel shipTo = (B2BUnitModel) CollectionUtils.find(customer.getGroups(),
+//					PredicateUtils.instanceofPredicate(B2BUnitModel.class));
+            final B2BUnitModel shipTo = customer.getGroups().stream()
+                    .filter(B2BUnitModel.class::isInstance)
+                    .map(B2BUnitModel.class::cast)
+                    .findFirst()
+                    .orElse(null);
+
+            if (null != shipTo)
 			{
 				return shipTo.getReportingOrganization() != null ? (B2BUnitModel) shipTo.getReportingOrganization() : shipTo;
 			}
