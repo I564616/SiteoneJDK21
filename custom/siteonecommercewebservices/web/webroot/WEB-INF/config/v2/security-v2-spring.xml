@@ -52,6 +52,12 @@
 			<security:frame-options disabled="true"/>
 		</headers>
 		<security:csrf disabled="true"/>
+
+        <security:oauth2-resource-server entry-point-ref="oAuth2AuthenticationEntryPoint">
+            <security:jwt
+                    decoder-ref="jwtDecoder"
+                    jwt-authentication-converter-ref="jwtAuthenticationRoleConverter"/>
+        </security:oauth2-resource-server>
 	</http>
 
 <!--	<bean id="oauthAuthenticationEntryPointV2" parent="oauthAuthenticationEntryPoint">-->
@@ -65,10 +71,4 @@
 <!--	<bean id="oAuth2ExceptionRendererV2" parent="oAuth2ExceptionRenderer">-->
 <!--		<property name="messageConverters" ref="messageConvertersV2"/>-->
 <!--	</bean>-->
-
-    <security:oauth2-resource-server entry-point-ref="oAuth2AuthenticationEntryPoint">
-        <security:jwt
-                decoder-ref="jwtDecoder"
-                jwt-authentication-converter-ref="jwtAuthenticationRoleConverter"/>
-    </security:oauth2-resource-server>
 </beans>
