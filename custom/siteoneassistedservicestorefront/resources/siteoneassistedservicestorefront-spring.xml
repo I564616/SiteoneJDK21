@@ -21,8 +21,7 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
            
-    <context:annotation-config/>
-    <import resource="classpath:/assistedservicestorefront/web/spring/assistedservicestorefront-spring.xml"/>
+    <context:annotation-config/> 
 
 	<bean id="siteoneassistedservicestorefrontCoreDataImportedEventListener" parent="abstractCoreDataImportedEventListener">
 		<property name="supportedChannels">
