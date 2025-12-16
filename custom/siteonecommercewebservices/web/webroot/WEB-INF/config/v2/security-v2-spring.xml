@@ -27,7 +27,7 @@
 	<!-- Commerce Webservices V2-->
 	<http pattern="/v2/**" entry-point-ref="oauthAuthenticationEntryPointV2"
 	      access-decision-manager-ref="webSecurityAccessDecisionManager"
-	      xmlns="http://www.springframework.org/schema/security" create-session="stateless">
+	      xmlns="http://www.springframework.org/schema/security" create-session="stateless" request-matcher="ant">
 
 		<anonymous username="anonymous" granted-authority="ROLE_ANONYMOUS"/>
 		<!--<session-management session-authentication-strategy-ref="fixation"/>-->

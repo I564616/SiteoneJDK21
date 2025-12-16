@@ -31,7 +31,7 @@
 	<security:http pattern="/_ui/**" security="none" />
 
 	<!--Security config for checkout - it has its own login page-->
-	<security:http pattern="/checkout/**">
+	<security:http pattern="/checkout/**" request-matcher="ant">
 		<security:anonymous username="anonymous" granted-authority="ROLE_ANONYMOUS" />
 		<security:access-denied-handler error-page="/login"/>
 																				
@@ -84,7 +84,7 @@
 
 
 	<!-- Default security config -->
-	<security:http request-matcher-ref="excludeUrlRequestMatcher">
+	<security:http request-matcher-ref="excludeUrlRequestMatcher" request-matcher="ant">
 		<security:anonymous username="anonymous" granted-authority="ROLE_ANONYMOUS" />
 		<security:access-denied-handler ref="siteoneAccessDeniedHandler"/>
 																				
