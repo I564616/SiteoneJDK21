@@ -25,7 +25,7 @@
     <security:http pattern="/v2/api-docs*/**" security="none"/> 
 
 	<!-- Commerce Webservices V2-->
-	<http pattern="/**" entry-point-ref="oauthAuthenticationEntryPointV2"
+	<http pattern="/**"
 	      access-decision-manager-ref="webSecurityAccessDecisionManager"
 	      xmlns="http://www.springframework.org/schema/security" create-session="stateless" request-matcher="ant">
 
@@ -41,10 +41,11 @@
 						  https="#{configurationService.configuration.getProperty('embeddedserver.ssl.port')}" />
 		</port-mappings>
 
-		<custom-filter ref="resourceServerFilter" before="PRE_AUTH_FILTER"/>
-		<access-denied-handler ref="oauthAccessDeniedHandlerV2"/>
-		
-		<headers >
+<!--		<custom-filter ref="resourceServerFilter" before="PRE_AUTH_FILTER"/>-->
+<!--		<access-denied-handler ref="oauthAccessDeniedHandlerV2"/>-->
+        <access-denied-handler ref="enrichingAccessDeniedHandler" />
+
+        <headers >
 			<content-type-options />
 			<hsts include-subdomains="true" max-age-seconds="16070400" />
 			<xss-protection />
@@ -53,15 +54,21 @@
 		<security:csrf disabled="true"/>
 	</http>
 
-	<bean id="oauthAuthenticationEntryPointV2" parent="oauthAuthenticationEntryPoint">
-		<property name="exceptionRenderer" ref="oAuth2ExceptionRendererV2"/>
-	</bean>
+<!--	<bean id="oauthAuthenticationEntryPointV2" parent="oauthAuthenticationEntryPoint">-->
+<!--		<property name="exceptionRenderer" ref="oAuth2ExceptionRendererV2"/>-->
+<!--	</bean>-->
 
-	<bean id="oauthAccessDeniedHandlerV2" parent="oauthAccessDeniedHandler">
-		<property name="exceptionRenderer" ref="oAuth2ExceptionRendererV2"/>
-	</bean>
+<!--	<bean id="oauthAccessDeniedHandlerV2" parent="oauthAccessDeniedHandler">-->
+<!--		<property name="exceptionRenderer" ref="oAuth2ExceptionRendererV2"/>-->
+<!--	</bean>-->
 
-	<bean id="oAuth2ExceptionRendererV2" parent="oAuth2ExceptionRenderer">
-		<property name="messageConverters" ref="messageConvertersV2"/>
-	</bean>
+<!--	<bean id="oAuth2ExceptionRendererV2" parent="oAuth2ExceptionRenderer">-->
+<!--		<property name="messageConverters" ref="messageConvertersV2"/>-->
+<!--	</bean>-->
+
+    <security:oauth2-resource-server entry-point-ref="enrichingAuthenticationEntryPoint">
+        <security:jwt
+                decoder-ref="jwtDecoder"
+                jwt-authentication-converter-ref="jwtAuthenticationRoleConverter"/>
+    </security:oauth2-resource-server>
 </beans>
