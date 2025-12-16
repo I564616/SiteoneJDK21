@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <classpath>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -8,7 +14,13 @@
     
     
     <classpathentry exported="true" kind="src" path="/platform"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -16,7 +28,13 @@
     
     
     <classpathentry exported="true" kind="src" path="/acceleratorstorefrontcommons"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -24,7 +42,13 @@
     
     
     <classpathentry exported="true" kind="src" path="/siteonefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -32,7 +56,13 @@
     
     
     <classpathentry exported="true" kind="lib" path="web/webroot/WEB-INF/lib/json-taglib-0.4.1.jar"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -40,7 +70,13 @@
     
     
     <classpathentry exported="true" kind="lib" path="web/webroot/WEB-INF/lib/jsoup-1.6.1.jar"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -48,7 +84,13 @@
     
     
     <classpathentry exported="true" kind="lib" path="web/webroot/WEB-INF/lib/jstl-impl-1.2.jar"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -56,7 +98,13 @@
     
     
     <classpathentry exported="true" kind="lib" path="web/webroot/WEB-INF/lib/rhino-1.7R4.jar"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -64,7 +112,13 @@
     
     
     <classpathentry exported="true" kind="lib" path="web/webroot/WEB-INF/lib/wro4j-core-1.7.9.jar"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -72,7 +126,13 @@
     
     
     <classpathentry exported="true" kind="lib" path="resources"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -80,7 +140,13 @@
     
     
     <classpathentry kind="src" output="eclipsebin/web/classes" path="web/src"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -88,7 +154,13 @@
     
     
     <classpathentry kind="src" output="eclipsebin/web/classes" path="web/testsrc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -96,7 +168,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/acceleratorcms"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -104,7 +182,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/acceleratorcmshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -112,7 +196,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/acceleratorfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -120,7 +210,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/acceleratorservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -128,7 +224,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/acceleratorserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -136,7 +238,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/acceleratorwebservicesaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -144,7 +252,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/accountsummaryaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -152,7 +266,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/addonsupport"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -160,7 +280,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/admincockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -168,7 +294,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/alipay"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -176,7 +308,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/alipayhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -184,7 +322,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/alipaymentbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -192,7 +336,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/amazoncloud"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -200,7 +350,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/apparelstore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -208,7 +364,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedserviceatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -216,7 +378,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedservicecustomerinterestsaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -224,7 +392,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedservicecustomerinterestsfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -232,7 +406,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedservicefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -240,7 +420,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedserviceservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -248,7 +434,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedserviceyprofileaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -256,7 +448,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/assistedserviceyprofilefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -264,7 +462,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/atddengine"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -272,7 +476,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/atddimpex"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -280,7 +490,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/atddrunner"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -288,7 +504,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/azurecloud"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -296,7 +518,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bacceleratoraddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -304,7 +532,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bacceleratorfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -312,7 +546,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bacceleratorservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -320,7 +560,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bacceleratorserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -328,7 +574,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2badmincockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -336,7 +588,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bapprovalprocess"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -344,7 +602,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bapprovalprocessfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -352,7 +616,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bapprovalprocesshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -360,7 +630,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bbtgaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -368,7 +644,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bcommerce"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -376,7 +658,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bcommercebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -384,7 +672,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bcommercefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -392,7 +686,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bcommercehmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -400,7 +700,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2boccaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -408,7 +714,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bpunchout"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -416,7 +728,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bpunchoutaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -424,7 +742,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bsappricing"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -432,7 +756,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2bsapproductavailability"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -440,7 +770,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2cbtgaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -448,7 +784,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2ctelcocheckoutaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -456,7 +798,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2ctelcocockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -464,7 +812,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2ctelcofacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -472,7 +826,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2ctelcoservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -480,7 +840,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2ctelcostore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -488,7 +854,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/b2ctelcostorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -496,7 +868,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/backoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -504,7 +882,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/backofficesolrsearch"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -512,7 +896,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/basecommerce"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -520,7 +910,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/basecommercebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -528,7 +924,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/basecommercehmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -536,7 +938,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/bmecat"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -544,7 +952,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/bmecathmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -552,7 +966,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/btg"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -560,7 +980,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/btgcockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -568,7 +994,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/btghmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -576,7 +1008,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/c4ccustomer"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -584,7 +1022,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/c4ccustomeratddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -592,7 +1036,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/captchaaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -600,7 +1050,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinaacceleratorbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -608,7 +1064,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinaacceleratorfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -616,7 +1078,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinaacceleratorservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -624,7 +1092,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinaacceleratorserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -632,7 +1106,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinacheckoutaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -640,7 +1120,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinastoreelectronics"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -648,7 +1134,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseaddressaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -656,7 +1148,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseaddressbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -664,7 +1162,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseaddressfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -672,7 +1176,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseaddressservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -680,7 +1190,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesecommerceorgaddressaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -688,7 +1204,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineselogisticaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -696,7 +1218,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineselogisticbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -704,7 +1232,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineselogisticfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -712,7 +1246,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineselogisticservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -720,7 +1260,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepaymentaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -728,7 +1274,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepaymentfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -736,7 +1288,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepaymentservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -744,7 +1302,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseproductsharingaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -752,7 +1316,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseprofileaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -760,7 +1330,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseprofilefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -768,7 +1344,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chineseprofileservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -776,7 +1358,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepspalipaymockaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -784,7 +1372,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepspalipaysbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -792,7 +1386,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepspalipayservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -800,7 +1400,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepspwechatpaymentaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -808,7 +1414,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepspwechatpaysbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -816,7 +1428,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesepspwechatpayservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -824,7 +1442,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesestoreaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -832,7 +1456,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesetaxinvoiceaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -840,7 +1470,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesetaxinvoicebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -848,7 +1484,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesetaxinvoicefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -856,7 +1498,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/chinesetaxinvoiceservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -864,7 +1512,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cisavs"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -872,7 +1526,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cisclient"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -880,7 +1540,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cisclienttest"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -888,7 +1554,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cispayment"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -896,7 +1568,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cispaymenthmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -904,7 +1582,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cissampledata"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -912,7 +1596,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cissubscription"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -920,7 +1610,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cissubscriptionatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -928,7 +1624,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cistax"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -936,7 +1638,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cistaxhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -944,7 +1652,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/classificationsystems"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -952,7 +1666,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/classificationsystemshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -960,7 +1680,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cms2"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -968,7 +1694,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cms2lib"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -976,7 +1708,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cmscockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -984,7 +1722,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cmsfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -992,7 +1736,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cmssmartedit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1000,7 +1750,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cmssmarteditwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1008,7 +1764,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cmswebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1016,7 +1778,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1024,7 +1792,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1032,7 +1806,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commerceorgaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1040,7 +1820,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commerceorgsamplesaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1048,7 +1834,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercesearch"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1056,7 +1848,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercesearchatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1064,7 +1862,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercesearchbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1072,7 +1876,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercesearchhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1080,7 +1890,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercesearchsamplesaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1088,7 +1904,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commerceservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1096,7 +1918,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commerceservicesatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1104,7 +1932,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commerceservicesbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1112,7 +1946,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commerceserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1120,7 +1960,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/commercewebservicescommons"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1128,7 +1974,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/config"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1136,7 +1988,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/config-dev"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1144,7 +2002,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/config-local"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1152,7 +2016,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/config-qa"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1160,7 +2030,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/config-sit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1168,7 +2044,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/config-uat"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1176,7 +2058,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/configurablebundleatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1184,7 +2072,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/configurablebundlecockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1192,7 +2086,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/configurablebundlefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1200,7 +2100,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/configurablebundleservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1208,7 +2114,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/consignmenttrackingaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1216,7 +2128,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/consignmenttrackingbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1224,7 +2142,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/consignmenttrackingfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1232,7 +2156,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/consignmenttrackingmockaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1240,7 +2170,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/consignmenttrackingservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1248,7 +2184,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/corepluscommons"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1256,7 +2198,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/couponbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1264,7 +2212,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/couponfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1272,7 +2226,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/couponservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1280,7 +2240,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/couponwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1288,7 +2254,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/cscockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1296,7 +2268,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerinterestsaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1304,7 +2282,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerinterestsfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1312,7 +2296,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerinterestsservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1320,7 +2310,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerreview"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1328,7 +2324,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerreviewhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1336,7 +2338,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customersupportbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1344,7 +2352,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerticketingaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1352,7 +2366,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerticketingc4cb2bintegration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1360,7 +2380,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerticketingc4cintegration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1368,7 +2394,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerticketingc4cintegrationatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1376,7 +2408,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/customerticketingfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1384,7 +2422,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/datahubadapter"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1392,7 +2436,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/datahubbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1400,7 +2450,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/deltadetection"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1408,7 +2464,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/droolsruleengineservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1416,7 +2478,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/dynamicwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1424,7 +2492,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/electronicsstore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1432,7 +2506,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/embeddedserver"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1440,7 +2520,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/emsclient"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1448,7 +2534,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/emsclientatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1456,7 +2548,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/emsui"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1464,7 +2562,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/entitlementatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1472,7 +2576,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/entitlementcockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1480,7 +2590,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/entitlementfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1488,7 +2604,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/entitlementservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1496,7 +2618,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/entitlementstorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1504,7 +2632,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/eventtrackingmodel"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1512,7 +2646,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/eventtrackingpublisher"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1520,7 +2660,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/eventtrackingservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1528,7 +2674,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/eventtrackingwsaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1536,7 +2688,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialacceleratorstorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1544,7 +2702,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialacceleratorstorefrontatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1552,7 +2716,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialcheckout"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1560,7 +2730,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialcockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1568,7 +2744,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1576,7 +2758,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1584,7 +2772,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/financialstore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1592,7 +2786,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/fractussyncaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1600,7 +2800,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/fractussyncconfigurationtrigger"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1608,7 +2814,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/fractussyncservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1616,7 +2828,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/gridfsstorage"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1624,7 +2842,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/groovynature"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1632,7 +2856,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/hmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1640,7 +2870,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/hybrisanalyticsaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1648,7 +2884,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/hybrisdatasupplier"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1656,7 +2898,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/hybrisdatasupplierhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1664,7 +2912,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/hybrisrootcauseanalysis"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1672,7 +2926,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/hybristransportandchange"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1680,7 +2940,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/importcockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1688,7 +2954,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/importcockpithmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1696,7 +2968,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/instore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1704,7 +2982,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ldap"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1712,7 +2996,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/liveeditaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1720,7 +3010,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/lucenesearch"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1728,7 +3024,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/lucenesearchbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1736,7 +3038,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/lucenesearchhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1744,7 +3052,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mcc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1752,7 +3066,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mediaconversion"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1760,7 +3080,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mediaconversionbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1768,7 +3094,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mediaconversionhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1776,7 +3108,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mobileoptionals"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1784,7 +3122,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mobileoptionalshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1792,7 +3136,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mobileservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1800,7 +3150,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/mobileserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1808,7 +3164,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/notificationaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1816,7 +3178,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/notificationfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1824,7 +3192,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/notificationservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1832,7 +3206,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/npmancillary"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1840,7 +3220,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/npmtestancillary"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1848,7 +3234,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/oci"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1856,7 +3248,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ondemandcommon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1864,7 +3262,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ondemandcommonhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1872,7 +3276,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ondemandsampledata"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1880,7 +3290,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ordercalculation"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1888,7 +3304,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ordermanagementaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1896,7 +3318,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ordermanagementfacade"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1904,7 +3332,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ordermanagementwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1912,7 +3346,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/orderselfserviceaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1920,7 +3360,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/payment"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1928,7 +3374,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/permissionswebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1936,7 +3388,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationcms"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1944,7 +3402,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationcmsbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1952,7 +3416,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationcmsweb"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1960,7 +3430,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1968,7 +3444,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationintegration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1976,7 +3458,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationpromotions"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1984,7 +3472,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationpromotionsbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1992,7 +3486,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationpromotionsweb"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2000,7 +3500,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationsampledataaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2008,7 +3514,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2016,7 +3528,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationservicesbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2024,7 +3542,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationsmartedit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2032,7 +3556,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2040,7 +3570,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/personalizationyprofile"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2048,7 +3584,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/platformbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2056,7 +3598,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/platformhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2064,7 +3612,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/platformwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2072,7 +3626,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/powertoolsstore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2080,7 +3640,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/previewpersonalizationweb"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2088,7 +3654,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/previewwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2096,7 +3668,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/print"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2104,7 +3682,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/printcockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2112,7 +3696,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/printcockpithmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2120,7 +3710,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/printhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2128,7 +3724,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/printsampledata"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2136,7 +3738,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/privacyoverlayeraddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2144,7 +3752,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/productcockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2152,7 +3766,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotionengineatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2160,7 +3780,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotionenginebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2168,7 +3794,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotionenginesamplesaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2176,7 +3808,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotionengineservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2184,7 +3822,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotions"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2192,7 +3836,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotionsbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2200,7 +3850,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/promotionshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2208,7 +3864,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/recentvieweditemsaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2216,7 +3878,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/recentvieweditemsservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2224,7 +3892,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/reportcockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2232,7 +3906,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/rulebuilderbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2240,7 +3920,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ruledefinitions"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2248,7 +3934,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ruleengine"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2256,7 +3948,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ruleengineatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2264,7 +3962,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ruleenginebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2272,7 +3976,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ruleengineservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2280,7 +3990,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/samlsinglesignon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2288,7 +4004,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapadtreco"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2296,7 +4018,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapadtrecob2b"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2304,7 +4032,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapadtrecohmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2312,7 +4046,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcarcommercefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2320,7 +4060,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcarintegration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2328,7 +4074,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcarintegrationaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2336,7 +4088,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcarintegrationhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2344,7 +4102,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcommonbol"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2352,7 +4116,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2360,7 +4130,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcoreaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2368,7 +4144,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcorebol"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2376,7 +4158,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcoreconfiguration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2384,7 +4172,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcoreconfigurationbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2392,7 +4186,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcoreconfigurationhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2400,7 +4200,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcorejco"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2408,7 +4214,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcorejcorec"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2416,7 +4228,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcoreodata"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2424,7 +4242,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcoretest"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2432,7 +4256,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcreditcheck"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2440,7 +4270,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcreditcheckbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2448,7 +4284,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcreditcheckhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2456,7 +4298,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcustomerb2b"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2464,7 +4312,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcustomerb2bbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2472,7 +4326,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapcustomerb2c"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2480,7 +4340,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapinvoiceaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2488,7 +4354,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapinvoicebol"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2496,7 +4368,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapinvoicefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2504,7 +4382,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapinvoiceservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2512,7 +4396,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapmodel"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2520,7 +4410,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapmodelbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2528,7 +4424,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapmodelhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2536,7 +4438,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/saporderexchange"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2544,7 +4452,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/saporderexchangeb2b"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2552,7 +4466,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/saporderexchangebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2560,7 +4480,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/saporderexchangeoms"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2568,7 +4494,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/saporderexchangeomsb2b"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2576,7 +4508,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmtb2bfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2584,7 +4522,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmtb2bservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2592,7 +4536,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmtbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2600,7 +4550,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmtbol"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2608,7 +4564,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmtcfgfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2616,7 +4578,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmthmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2624,7 +4592,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapordermgmtservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2632,7 +4606,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sappostransactionaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2640,7 +4620,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sappricing"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2648,7 +4634,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sappricingbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2656,7 +4648,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sappricingbol"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2664,7 +4662,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sappricinghmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2672,7 +4676,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sappricingproductcarouseladdon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2680,7 +4690,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapprodrecoaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2688,7 +4704,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapprodrecobuffer"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2696,7 +4718,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapprodrecocommon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2704,7 +4732,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapprodrecohmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2712,7 +4746,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductavailability"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2720,7 +4760,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductavailabilitybackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2728,7 +4774,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductavailabilityhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2736,7 +4788,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigb2b"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2744,7 +4802,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigb2bservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2752,7 +4816,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2760,7 +4830,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2768,7 +4844,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfighmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2776,7 +4858,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigmodel"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2784,7 +4872,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigrules"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2792,7 +4886,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigrulesbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2800,7 +4900,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigruntimeinterface"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2808,7 +4914,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigruntimessc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2816,7 +4928,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductconfigservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2824,7 +4942,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproducthmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2832,7 +4956,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapproductrecommendation"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2840,7 +4970,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/sapymktsync"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2848,7 +4984,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/savedorderforms"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2856,7 +4998,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/savedorderformsoccaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2864,7 +5012,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/scalanature"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2872,7 +5026,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/secureportaladdon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2880,7 +5040,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2888,7 +5054,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonecockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2896,7 +5068,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonecontentsearch"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2904,7 +5082,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonecore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2912,7 +5096,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonefulfilmentprocess"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2920,7 +5110,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteoneinitialdata"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2928,7 +5124,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteoneintegration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2936,7 +5138,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonepcm"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2944,7 +5152,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonepricefactory"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2952,7 +5166,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteonetest"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2960,7 +5180,7 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/smartedit"/>
-                            	
+                                                    	
 	
     
     
@@ -2968,8 +5188,20 @@
     
     
     
+    
+    
+    
+    
+    
+    
     <classpathentry combineaccessrules="false" kind="src" path="/smarteditwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2977,7 +5209,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/solrfacetsearch"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2985,7 +5223,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/solrfacetsearchbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2993,7 +5237,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/solrfacetsearchhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3001,7 +5251,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/solrserver"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3009,7 +5265,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/springintegrationlibs"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3017,7 +5279,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/stocknotificationaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3025,7 +5293,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/stocknotificationfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3033,7 +5307,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/stocknotificationservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3041,7 +5321,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptionatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3049,7 +5335,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptionbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3057,7 +5349,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptioncockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3065,7 +5363,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptionfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3073,7 +5377,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptionservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3081,7 +5391,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptionserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3089,7 +5405,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/subscriptionstorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3097,7 +5419,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/textfieldconfiguratortemplateaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3105,7 +5433,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/textfieldconfiguratortemplateatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3113,7 +5447,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/textfieldconfiguratortemplatebackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3121,7 +5461,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/textfieldconfiguratortemplatefacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3129,7 +5475,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/textfieldconfiguratortemplateservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3137,7 +5489,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ticketsystem"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3145,7 +5503,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ticketsystembackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3153,7 +5517,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ticketsystemhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3161,7 +5531,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/timedaccesspromotionsbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3169,7 +5545,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/timedaccesspromotionsfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3177,7 +5559,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/timedaccesspromotionsservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3185,7 +5573,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/timedaccesspromotionsserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3193,7 +5587,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/timedaccesspromotionsstorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3201,7 +5601,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/tomcatembeddedserver"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3209,7 +5615,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/verticalnavigationaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3217,7 +5629,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/virtualjdbc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3225,7 +5643,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/voucher"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3233,7 +5657,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/voucherbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3241,7 +5671,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/voucherhmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3249,7 +5685,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/warehousing"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3257,7 +5699,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/warehousingbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3265,7 +5713,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/warehousingfacade"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3273,7 +5727,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/warehousingwebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3281,7 +5741,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/webservicescommons"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3289,7 +5755,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/wishlist"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3297,7 +5769,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformsatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3305,7 +5783,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformsbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3313,7 +5797,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformscockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3321,7 +5811,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformsfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3329,7 +5825,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformssamples"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3337,7 +5839,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformsservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3345,7 +5853,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformsstorefrontcommons"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3353,7 +5867,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/xyformsweb"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3361,7 +5881,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/y2ysync"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3369,7 +5895,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/y2ysyncbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3377,7 +5909,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/y2ysyncdemoelectronics"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3385,7 +5923,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/y2ysynchmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3393,7 +5937,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yaasconfiguration"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3401,7 +5951,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yaasconfigurationbackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3409,7 +5965,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yaasconnect"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3417,7 +5979,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yaasyprofileconnect"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3425,7 +5993,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorcockpits"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3433,7 +6007,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorcore"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3441,7 +6021,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorfacades"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3449,7 +6035,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorfractusfulfilmentprocess"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3457,7 +6049,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorfulfilmentprocess"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3465,7 +6063,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorinitialdata"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3473,7 +6077,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorordermanagement"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3481,7 +6091,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratorstorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3489,7 +6105,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yacceleratortest"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3497,7 +6119,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3505,7 +6133,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yatddtests"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3513,7 +6147,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ybackoffice"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3521,7 +6161,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ychinaacceleratorstorefront"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3529,7 +6175,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ycmssmartedit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3537,7 +6189,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ycockpit"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3545,7 +6203,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ycommercewebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3553,7 +6217,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ycommercewebserviceshmc"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3561,7 +6231,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ycommercewebservicestest"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3569,7 +6245,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yempty"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3577,7 +6259,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ygroovy"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3585,7 +6273,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yhacext"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3593,7 +6287,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yoccaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3601,7 +6301,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yprofilecommons"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3609,7 +6315,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yprofileeventadapter"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3617,7 +6329,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yprofileeventtrackingws"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3625,7 +6343,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yprofileprocessadapter"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3633,7 +6357,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ysapomsfulfillment"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3641,7 +6371,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ysaporderfulfillment"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3649,7 +6385,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ysapordermgmtb2baddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3657,7 +6399,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ysapproductconfigaddon"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3665,7 +6413,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/yscala"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3673,7 +6427,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ysmarteditmodule"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3681,7 +6441,13 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/ywebservices"/>
-                            	
+                                                    	
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3689,7 +6455,7 @@
     
     
     <classpathentry combineaccessrules="false" kind="src" path="/siteoneassistedservicestorefront"/>
-                            	
+                                                    	
     
     	
     
@@ -3705,13 +6471,55 @@
     
     
     
+    
+    
+    
+    
+    
+    
     <classpathentry kind="output" path="eclipsebin/notused"/>
-                            
+                                                    
     
     
     
     
                 
+    
+    
+    
+    
+    
+                    
+    
+    
+    
+    
+    
+                    
+    
+    
+    
+    
+    
+                    
+    
+    
+    
+    
+    
+                    
+    
+    
+    
+    
+    
+                    
+    
+    
+    
+    
+    
+                    
     
     
     
@@ -3732,7 +6540,13 @@
         
     <classpathentry combineaccessrules="false" kind="src" path="/smarteditaddon"/>
     <classpathentry combineaccessrules="false" kind="src" path="/multicountrysampledataaddon"/>
-                            
+                                                    
+
+
+
+
+
+
 
 
 
