@@ -137,7 +137,7 @@ public class QuoteController extends AbstractCartPageController
 		return getQuoteFacade().getDiscountTypes();
 	}
 
-	@Autowired
+    @Resource(name = "validator")
 	private SmartValidator smartValidator;
 
 	/**
