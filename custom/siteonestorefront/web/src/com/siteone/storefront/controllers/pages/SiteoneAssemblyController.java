@@ -27,6 +27,7 @@ import jakarta.annotation.Resource;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
+import org.json.JSONException;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -49,8 +50,8 @@ import com.siteone.storefront.forms.SiteOneEditSavedListForm;
 import com.siteone.storefront.forms.SiteOneProductCommentForm;
 import com.siteone.storefront.forms.SiteoneSavedListCreateForm;
 import com.siteone.storefront.forms.SiteoneShareSavedListForm;
-
-import atg.taglib.json.util.JSONException;
+//JDK-21-FIX-Needed
+//import atg.taglib.json.util.JSONException;
 
 
 /**

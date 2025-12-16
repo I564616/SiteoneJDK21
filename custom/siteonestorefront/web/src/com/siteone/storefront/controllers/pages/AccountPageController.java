@@ -65,7 +65,8 @@ import de.hybris.platform.servicelayer.user.UserService;
 import de.hybris.platform.servicelayer.user.exceptions.PasswordPolicyViolationException;
 import de.hybris.platform.site.BaseSiteService;
 import de.hybris.platform.util.Config;
-import de.hybris.platform.webservicescommons.oauth2.token.dao.OAuthTokenDao;
+//JDK-21-FIX-Needed
+//import de.hybris.platform.webservicescommons.oauth2.token.dao.OAuthTokenDao;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -109,8 +110,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.BooleanUtils;
 import org.apache.log4j.Logger;
 import org.hibernate.validator.constraints.URL;
-import org.springframework.security.oauth2.common.OAuth2AccessToken;
-import org.springframework.security.oauth2.provider.token.TokenStore;
+//JDK-21-FIX-Needed
+//import org.springframework.security.oauth2.common.OAuth2AccessToken;
+//import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.FileCopyUtils;
@@ -417,8 +419,9 @@ public class AccountPageController extends AbstractSearchPageController
 	@Resource(name = "configurationService")
 	private ConfigurationService configurationService;
 
-	@Resource(name = "oauthTokenStore")
-	private TokenStore oauthTokenStore;
+    //JDK-21-FIX-Needed
+//	@Resource(name = "oauthTokenStore")
+//	private TokenStore oauthTokenStore;
 
 
 	/**
@@ -1329,31 +1332,33 @@ public class AccountPageController extends AbstractSearchPageController
 			model.addAttribute("isEnabledForAgroAI", true);
 		try
 		{
-			final B2BCustomerModel customer = (B2BCustomerModel) b2bCustomerService.getCurrentB2BCustomer();
-			Collection<OAuth2AccessToken> accessTokenList=new ArrayList<>();
-			if(null !=customer)
-			{
-			accessTokenList=oauthTokenStore.findTokensByClientIdAndUserName(Config.getString("agro.ai.client.id", StringUtils.EMPTY),customer.getUid());
-			if(CollectionUtils.isNotEmpty(accessTokenList))
-			{
-				for(final OAuth2AccessToken token:accessTokenList)
-				{
-					getSessionService().setAttribute("refreshToken",token.getRefreshToken().getValue());
-					break;
-				}
-				
-			}
-			}
-		final JSONObject json = new JSONObject();
-		json.put("sessionToken", (String)getSessionService().getAttribute(SiteoneCoreConstants.OKTA_SESSION_TOKEN));
-		json.put("refreshToken", (String)getSessionService().getAttribute("refreshToken"));		
-		final PointOfServiceData pos = storeSessionFacade.getSessionStore();
-		if (null != pos)
-		{
-			json.put("branchNumber", pos.getStoreId());
-		}
-		model.addAttribute("agroToken",XSSEncoder.encodeURL(getEncryptionData(json.toString(),Config.getString("agro.encryption.aes.secret", null))));
-		}
+            //JDK-21-FIX-Needed
+//			final B2BCustomerModel customer = (B2BCustomerModel) b2bCustomerService.getCurrentB2BCustomer();
+//			Collection<OAuth2AccessToken> accessTokenList=new ArrayList<>();
+//			if(null !=customer)
+//			{
+//			accessTokenList=oauthTokenStore.findTokensByClientIdAndUserName(Config.getString("agro.ai.client.id", StringUtils.EMPTY),customer.getUid());
+//			if(CollectionUtils.isNotEmpty(accessTokenList))
+//			{
+//				for(final OAuth2AccessToken token:accessTokenList)
+//				{
+//					getSessionService().setAttribute("refreshToken",token.getRefreshToken().getValue());
+//					break;
+//				}
+//
+//			}
+//			}
+//		final JSONObject json = new JSONObject();
+//		json.put("sessionToken", (String)getSessionService().getAttribute(SiteoneCoreConstants.OKTA_SESSION_TOKEN));
+//		json.put("refreshToken", (String)getSessionService().getAttribute("refreshToken"));
+//		final PointOfServiceData pos = storeSessionFacade.getSessionStore();
+//		if (null != pos)
+//		{
+//			json.put("branchNumber", pos.getStoreId());
+//		}
+//		model.addAttribute("agroToken",XSSEncoder.encodeURL(getEncryptionData(json.toString(),Config.getString("agro.encryption.aes.secret", null))));
+//
+        }
 		catch(Exception e)
 		{
 			LOG.error("Error while converting json object: " + e.toString());
