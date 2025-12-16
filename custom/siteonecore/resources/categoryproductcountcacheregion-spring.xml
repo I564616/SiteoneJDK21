@@ -28,7 +28,7 @@
         <constructor-arg name="exclusiveComputation" value="${category.product.count.cache.exclusivecomputation}" />
         <constructor-arg name="ttlSeconds" value="${category.product.count.cache.ttl.seconds}"/>
         <property name="handledTypes">
-            <null/>
+            <array></array>
         </property>
     </bean>
 

@@ -28,7 +28,7 @@
         <constructor-arg name="exclusiveComputation" value="${siteone.feature.switch.cache.exclusivecomputation}" />
         <constructor-arg name="ttlSeconds" value="${siteone.feature.switch.cache.ttl.seconds}"/>
         <property name="handledTypes">
-            <null/>
+            <array></array>
         </property>
     </bean>
 
