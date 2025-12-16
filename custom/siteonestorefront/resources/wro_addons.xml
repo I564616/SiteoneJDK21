@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+   <group name="addons">
+      <js>/_ui/addons/siteoneorgaddon/responsive/common/js/commerceorgnavigation.js</js>
+      <js>/_ui/addons/siteoneorgaddon/responsive/common/js/siteoneorgaddon.js</js>
+      <js>/_ui/addons/siteoneorgaddon/responsive/common/js/jquery.validate.js</js>
+      <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.checkoutsummary.js</js>
+      <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.paymentType.js</js>
+      <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.replenishment.js</js>
+      <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.orderform.js</js>
+      <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.approval.js</js>
+      <js>/_ui/addons/siteoneassistedservicestorefront/responsive/common/js/siteoneassistedservicestorefront.js</js>
+      <css>/_ui/addons/siteoneassistedservicestorefront/responsive/common/css/siteoneassistedservicestorefront.css</css>
+      <js>/_ui/addons/siteonepunchoutaddon/responsive/common/js/acc.punchout.js</js>
+   </group>
+   <group name="addons_desktop"></group>
+   <group name="addons_mobile"></group>
+</groups>
+
