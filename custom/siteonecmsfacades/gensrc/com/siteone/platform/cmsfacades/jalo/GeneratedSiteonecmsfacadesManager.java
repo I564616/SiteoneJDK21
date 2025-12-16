@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------
  * --- WARNING: THIS FILE IS GENERATED AND WILL BE OVERWRITTEN! ---
- * --- Generated at Dec 16, 2025, 10:49:09 PM                   ---
+ * --- Generated at Dec 17, 2025, 2:42:08 AM                    ---
  * ----------------------------------------------------------------
  */
 package com.siteone.platform.cmsfacades.jalo;

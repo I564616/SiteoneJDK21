@@ -10,11 +10,42 @@
       <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.replenishment.js</js>
       <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.orderform.js</js>
       <js>/_ui/addons/siteoneacceleratoraddon/responsive/common/js/acc.approval.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/assistedservicestorefront.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.pager.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.min.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js</js>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/assistedservicestorefront.css</css>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/storeFinder.css</css>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/customer360.css</css>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/webApplicationInjector.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/reprocessPage.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/adjustComponentRenderingToSE.js</js>
+      <js>/_ui/addons/smarteditaddon/responsive/common/js/smarteditaddon.js</js>
+      <css>/_ui/addons/smarteditaddon/responsive/common/css/smarteditaddon.css</css>
       <js>/_ui/addons/siteoneassistedservicestorefront/responsive/common/js/siteoneassistedservicestorefront.js</js>
       <css>/_ui/addons/siteoneassistedservicestorefront/responsive/common/css/siteoneassistedservicestorefront.css</css>
       <js>/_ui/addons/siteonepunchoutaddon/responsive/common/js/acc.punchout.js</js>
    </group>
-   <group name="addons_desktop"></group>
-   <group name="addons_mobile"></group>
+   <group name="addons_desktop">
+      <js>/_ui/addons/smarteditaddon/shared/common/js/webApplicationInjector.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/reprocessPage.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/adjustComponentRenderingToSE.js</js>
+      <js>/_ui/addons/smarteditaddon/desktop/common/js/smarteditaddon.js</js>
+      <css>/_ui/addons/smarteditaddon/desktop/common/css/smarteditaddon.css</css>
+   </group>
+   <group name="addons_mobile">
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/assistedservicestorefront.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.pager.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/jquery.tablesorter.min.js</js>
+      <js>/_ui/addons/assistedservicestorefront/responsive/common/js/asm.storefinder.js</js>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/assistedservicestorefront.css</css>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/storeFinder.css</css>
+      <css>/_ui/addons/assistedservicestorefront/responsive/common/css/customer360.css</css>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/webApplicationInjector.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/reprocessPage.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/adjustComponentRenderingToSE.js</js>
+      <js>/_ui/addons/smarteditaddon/mobile/common/js/smarteditaddon.js</js>
+      <css>/_ui/addons/smarteditaddon/mobile/common/css/smarteditaddon.css</css>
+   </group>
 </groups>
 

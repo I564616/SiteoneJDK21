@@ -9,14 +9,26 @@
  Information and shall use it only in accordance with the terms of the
  license agreement you entered into with SAP.
 --><extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
-                        	
+                                                	
+    
+    
+    
+    
+    
+    
     
     
     
     
     
     <extension abstractclassprefix="Generated" classprefix="SiteoneStorefront" name="siteonestorefront" usemaven="true">
-                                                	
+                                                                                                	
+        
+        
+        
+        
+        
+        
         
         
         
@@ -40,14 +52,56 @@
         <requires-extension name="siteoneacceleratoraddon"/>
                                                 
         
+        
+        
+        
+                                                
+        
+        
+        
+        
+                                                
+        
+        
+        
+        
+                                                
+        
+        
+        
+        
+                                                
+        
+        
+        
+        
+                                                
+        
+        
+        
+        
+                                                
+        
                 	
         
         
         
         
         
+        
+        
+        
+        
+        
+        
         <requires-extension name="siteoneassistedservicestorefront"/>
-                                                
+                                                                                                
+        
+        
+        
+        
+        
+        
         
         
         
@@ -56,14 +110,20 @@
         
         
         <!--<requires-extension name="assistedservicestorefront"/>-->
-                                                
+                                                                                                
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <!--<requires-extension name="siteoneassistedservicestorefront"/>-->
-                                                    
+                                                                                                    
         
         
         
@@ -73,29 +133,53 @@
         
         
         
+        
+        
+        
+        
+        
+        
         <requires-extension name="acceleratorstorefrontcommons"/>
-                                                	  
+                                                                                                	  
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <requires-extension name="siteonefacades"/>
-                                                	  
+                                                                                                	  
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <requires-extension name="b2bcommerce"/>
-                                                	  
+                                                                                                	  
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <requires-extension name="siteonecontentsearch"/>
-                                                	  
+                                                                                                	  
 		
         
         
@@ -114,22 +198,46 @@
         
         
         
+        
+        
+        
+        
+        
+        
         <webmodule jspcompile="false" webroot="/siteonestorefront"/>
-                                                	  
+                                                                                                	  
+        
+        
+        
+        
+        
+        
         
         
         
         
         
         <meta key="extgen-template-extension" value="true"/>
-                                                	
+                                                                                                	
+    
+    
+    
+    
+    
+    
     
     
     
     
     
     </extension>
-                        
+                                                
+
+
+
+
+
+
 
 
 
