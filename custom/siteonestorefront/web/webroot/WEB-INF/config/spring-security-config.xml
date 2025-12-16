@@ -385,5 +385,7 @@
 			</list>
 		</constructor-arg>
 	</bean>
+    <bean id="fixation"
+          class="org.springframework.security.web.authentication.session.ChangeSessionIdAuthenticationStrategy"/>
 
 </beans>
