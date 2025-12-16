@@ -49,6 +49,18 @@
         <mvc:path-matching path-matcher="pathMatcher"/>
     </mvc:annotation-driven>
 
+    <bean id="defaultPathMatcher" class="org.springframework.util.AntPathMatcher" />
+
+    <bean id="mvcHandlerMappingIntrospector" class="org.springframework.web.servlet.handler.HandlerMappingIntrospector"/>
+
+    <bean id="requestMappingHandlerMapping"
+          class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+        <property name="pathMatcher" ref="defaultPathMatcher"/>
+        <property name="patternParser">
+            <null/>
+        </property>
+    </bean>
+
 	<!-- Scan for annotation configured controller -->
 	<context:component-scan base-package="com.siteone.storefront" scope-resolver="de.hybris.platform.spring.IgnoreTenantScopeMetadataResolver"  />
 
