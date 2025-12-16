@@ -85,7 +85,7 @@
     	<pathelement path="${ext.siteonestorefront.path}/web/webroot/WEB-INF/lib/ant-grunt-launcher-0.0.2.jar" />
 	</path>
 
-	<taskdef name="grunt" classname="org.jberta93.gruntlauncher.core.GruntLauncher" classpathref="grunt.lib.path"/>
+<!--	<taskdef name="grunt" classname="org.jberta93.gruntlauncher.core.GruntLauncher" classpathref="grunt.lib.path"/>-->
 
 	<if>
 		<os family="windows"/>
