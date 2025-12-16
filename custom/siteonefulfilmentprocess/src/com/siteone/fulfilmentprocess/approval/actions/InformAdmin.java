@@ -51,7 +51,7 @@ public class InformAdmin extends AbstractSimpleB2BApproveOrderDecisionAction
 			}
 			// remove the user who placed the order.
             ////JDK-21-FIX-Needed
-			b2bAdminGroupUsers.removeIf(Predicate.not(PredicateUtils.notPredicate(PredicateUtils.equalPredicate(customer))));
+			//b2bAdminGroupUsers.removeIf(Predicate.not(PredicateUtils.notPredicate(PredicateUtils.equalPredicate(customer))));
 
 			if (CollectionUtils.isNotEmpty(b2bAdminGroupUsers))
 			{
