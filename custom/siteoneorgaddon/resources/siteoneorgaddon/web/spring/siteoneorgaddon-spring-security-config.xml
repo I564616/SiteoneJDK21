@@ -27,8 +27,8 @@
 		<security:anonymous username="anonymous" granted-authority="ROLE_ANONYMOUS"/>
 
 		<!-- SSL / AUTHENTICATED pages Organization management pages-->
-		<security:intercept-url pattern="/my-company*" access="ROLE_B2BADMINGROUP" requires-channel="https"/>
-		<security:intercept-url pattern="/my-company/**" access="ROLE_B2BADMINGROUP" requires-channel="https"/>
+		<security:intercept-url pattern="/my-company*" access="hasRole('ROLE_B2BADMINGROUP')" requires-channel="https"/>
+		<security:intercept-url pattern="/my-company/**" access="hasRole('ROLE_B2BADMINGROUP')" requires-channel="https"/>
 
 		<security:form-login
 				login-page="/login"
