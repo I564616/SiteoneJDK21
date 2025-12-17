@@ -42,6 +42,7 @@
 			</bean>
 			<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
 		</mvc:message-converters>
+        <mvc:path-matching path-matcher="defaultPathMatcher" trailing-slash="false"/>
 	</mvc:annotation-driven>
     <bean id="pathMatcher" class="org.springframework.util.AntPathMatcher" />
 
