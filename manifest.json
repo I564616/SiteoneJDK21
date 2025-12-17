@@ -1,0 +1,297 @@
+{
+    "commerceSuiteVersion": "2211-jdk21.4",
+	"solrVersion": "9.7",
+    "enableImageProcessingService": false,
+    "extensions": [
+        "azurecloud",
+        "azurecloudhotfolder"
+    ],
+    "useConfig": {
+        "properties": [
+            {
+                "location": "hybris/config/environments/config-dev/local.properties",
+                "persona": "development"
+            },
+            {
+                "location": "hybris/config/environments/config-stage/local.properties",
+                "persona": "staging"
+            },
+            {
+                "location": "hybris/config/environments/config-prod/local.properties",
+                "persona": "production"
+            },
+            {
+                "location": "hybris/config/common.properties"
+            },
+            {
+                "aspect": "accstorefront",
+                "location": "hybris/config/accstorefront.properties"
+            },
+            {
+                "aspect": "api",
+                "location": "hybris/config/api.properties"
+            },
+            {
+                "aspect": "backoffice",
+                "location": "hybris/config/backoffice.properties"
+            }
+        ],
+        "extensions": {
+            "location": "hybris/config/localextensions.xml"
+        },
+        "solr": 
+            {
+                "location": "solr-custom"
+            }
+    },
+    "storefrontAddons": [
+        {
+            "addon": "siteoneacceleratoraddon",
+            "storefront": "siteonestorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "siteoneorgaddon",
+            "storefront": "siteonestorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "siteonestorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "siteonestorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "multicountrysampledataaddon",
+            "storefront": "siteonestorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "cmsoccaddon",
+            "storefront": "siteonecommercewebservices",
+            "template": "ycommercewebservices"
+        }
+    ],
+    "aspects": [
+        {
+            "name": "backgroundProcessing",
+            "properties": [
+                {
+                    "key": "cluster.node.groups",
+                    "value": "integration,yHotfolderCandidate,backgroundProcessing"
+                },
+                {
+                    "key": "task.engine.loadonstartup",
+                    "value": "true"
+                }
+            ],
+            "webapps": [
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                }
+            ]
+        },
+        {
+            "name": "backoffice",
+            "properties": [
+                {
+                    "key": "backoffice.solr.search.index.autoinit",
+                    "value": "true"
+                },
+                {
+                    "key": "xyformsservices.webroot.override",
+                    "value": "false"
+                },
+                {
+                    "key": "xss.filter.header.X-Frame-Options",
+                    "value": ""
+                }
+            ],
+            "webapps": [
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {
+                    "name": "siteonestorefront",
+                    "contextPath": ""
+                },
+                {
+                    "name": "backoffice",
+                    "contextPath": "/backoffice"
+                },
+                {
+                    "name": "adminapi",
+                    "contextPath": "/adminapi"
+                },
+                {
+                    "name": "smartedit",
+                    "contextPath": "/smartedit"
+                },
+                {
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
+                },
+                {
+                    "name": "cmssmartedit",
+                    "contextPath": "/cmssmartedit"
+                },
+                {
+                    "name": "cmssmarteditwebservices",
+                    "contextPath": "/cmssmarteditwebservices"
+                },
+                {
+                    "name": "personalizationsmartedit",
+                    "contextPath": "/personalizationsmartedit"
+                },
+                {
+                    "name": "personalizationwebservices",
+                    "contextPath": "/personalizationwebservices"
+                },
+                {
+                    "name": "siteonecommercewebservices",
+                    "contextPath": "/siteonecommercewebservices"
+                },
+                {
+                    "name": "adaptivesearchwebservices",
+                    "contextPath": "/adaptivesearchwebservices"
+                },
+                {
+                    "name": "cmswebservices",
+                    "contextPath": "/cmswebservices"
+                },
+                {
+                    "name": "smarteditwebservices",
+                    "contextPath": "/smarteditwebservices"
+                },
+                {
+                    "name": "previewwebservices",
+                    "contextPath": "/previewwebservices"
+                },
+                {
+                    "name": "permissionswebservices",
+                    "contextPath": "/permissionswebservices"
+                },
+                {
+                    "name": "tomcatembeddedserver",
+                    "contextPath": "/tomcatembeddedserver"
+                },
+                {
+                    "name": "embeddedserver",
+                    "contextPath": "/embeddedserver"
+                },
+                {
+                    "name": "groovynature",
+                    "contextPath": "/groovynature"
+                },
+                {
+                    "name": "mediaconversion",
+                    "contextPath": "/mediaconversion"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "samlsinglesignon",
+                    "contextPath": "/samlsinglesignon"
+                },
+                {
+                    "name": "odata2webservices",
+                    "contextPath": "/odata2webservices"
+                }
+            ]
+        },
+        {
+            "name": "accstorefront",
+            "properties": [
+                {
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                }
+            ],
+            "webapps": [
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {
+                    "name": "siteonestorefront",
+                    "contextPath": ""
+                },
+                {
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
+                },
+                {
+                    "name": "samlsinglesignon",
+                    "contextPath": "/samlsinglesignon"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                }
+            ]
+        },
+        {
+            "name": "api",
+            "properties": [
+                {
+                    "key": "storefrontContextRoot",
+                    "value": "/"
+                },
+                {
+                    "key": "xss.filter.header.X-Frame-Options",
+                    "value": ""
+                }
+            ],
+            "webapps": [
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/medias"
+                },
+                {
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
+                },
+                {
+                    "name": "b2bpunchout",
+                    "contextPath": "/b2bpunchout"
+                },
+                {
+                    "name": "siteonestorefront",
+                    "contextPath": ""
+                },
+                {
+                    "name": "siteonecommercewebservices",
+                    "contextPath": "/siteonecommercewebservices"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "odata2webservices",
+                    "contextPath": "/odata2webservices"
+                }
+            ]
+        }
+    ]
+}
